@@ -69,10 +69,23 @@ Docking gives a numerical value which represents the binding affinity between th
 | Coumarin | 323_mmff94_E=33.85 | 5QCU_dockprep | -6.0 |
 | Geraniol | 637566_mmff94_E=17.24 | 5QCU_dockprep | -5.8 |
 
-### Interpretation: 
-The results show that Galantamine, the clincally used drug demonstrates strong binding affinity. It has the strongest binding affinity compared to the plant based compounds - coumarin and geraniol, which show moderate binding affinity. Still their drug-likeness prperties makes htem good candidates for further investigation.
+### Interpretation
+The results show that Galantamine, the clincally used drug demonstrates strong binding affinity. It has the strongest binding affinity compared to the plant based compounds - coumarin and geraniol, which show moderate binding affinity. Still their drug-likeness properties makes them good candidates for further investigation.
+
+### 2D visualization
+
+The 2D interaction diagram was generated to visualize the non-covalent bond network between the ligand and the BACE1 active site. Galantamine forms a hydrogen bond with Gln73 and Phe108, and a Pi-Alkyl bond with Tyr91. The 3D interaction diagram shows a "lock and key" binding. The aromatic rings of the ligand are positioned near the grey hydrophobic regions, while the polar groups are touching the green "Acceptor" clouds. It uses hydrophobic effects for stability and hydrogen bonds for specificity.
+
+![Galantamine 2D Interaction Diagram](./images/5QCU_dockprep-Galantamine_9651_interaction.png)
+
+*Figure 3: 2D interaction diagram of Galantamine in BACE1 binding site using the Biovia Discovery Studio.*
 
 
+Coumarin forms a Pi-Pi stacked bond with Tyr71 and Phe108. The 3D interaction diagram shows that Coumarin exhibits significant pocket occupancy, aligning with both donor and acceptor regions of the BACE1 catalytic site, suggesting a stable binding orientation
+
+![Coumarin 2D Interaction Diagram](./images/5QCU_dockprep-Coumarin_323_interaction.png)
+
+*Figure 4: 2D interaction diagram of Coumarin in BACE1 binding site using the Biovia Discovery Studio.*
 
 ## Acknowledgments
 This project was completed as part of the 3-Week Virtual Research Training in CADD (https://www.linkedin.com/company/the-insilico-lab/posts/?feedView=all) organized by **The InSilico Lab**. 
