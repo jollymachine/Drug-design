@@ -41,6 +41,8 @@ The SMILES structures of these compounds was obtained from PubChem (See data fol
 | **Lipinski Rule Violations** | 0 | 0 | 0 |
 | **BBB Permeant** | Yes | Yes | Yes |
 
+More details are in the images folder containing screenshots and in the data folder containing the csv files.
+
 ### Docking using PyRx
 Docking was performed using PyRx. The structures of the ligands were downloaded in sdf format from PubChem and opened in PyRx. Using Vina wizard, docking was performed on the binding site residues determined from DoG site scorer. The definition of the search space (Grid Box):
 ```
