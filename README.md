@@ -76,16 +76,19 @@ The results show that Galantamine, the clincally used drug demonstrates strong b
 
 The 2D interaction diagram was generated to visualize the non-covalent bond network between the ligand and the BACE1 active site. Galantamine forms a hydrogen bond with Gln73 and Phe108, and a Pi-Alkyl bond with Tyr91. The 3D interaction diagram shows a "lock and key" binding. The aromatic rings of the ligand are positioned near the grey hydrophobic regions, while the polar groups are touching the green "Acceptor" clouds. It uses hydrophobic effects for stability and hydrogen bonds for specificity.
 
-![Galantamine 2D Interaction Diagram](./images/5QCU_dockprep-Galantamine_9651_interaction.png)
-
-*Figure 3: 2D interaction diagram of Galantamine in BACE1 binding site using the Biovia Discovery Studio.*
-
+| Galantamine 2D Interaction | Galantamine 3D Interaction |
+| :---: | :---: |
+| ![Galantamine 2D Interaction Diagram](./images/5QCU_dockprep-Galantamine_9651_interaction.png) | ![Galantamine 2D Interaction Diagram](./images/5QCU_9651_3D_interaction_crop.png) |
 
 Coumarin forms a Pi-Pi stacked bond with Tyr71 and Phe108. The 3D interaction diagram shows that Coumarin exhibits significant pocket occupancy, aligning with both donor and acceptor regions of the BACE1 catalytic site, suggesting a stable binding orientation
 
-![Coumarin 2D Interaction Diagram](./images/5QCU_dockprep-Coumarin_323_interaction.png)
+| Coumarin 2D Interaction | Coumarin 3D Interaction |
+| :---: | :---: |
+| ![Coumarin 2D Interaction Diagram](./images/5QCU_dockprep-Coumarin_323_interaction.png)| ![Coumarin 2D Interaction Diagram](./images/5QCU_323_interaction.png) |
 
-*Figure 4: 2D interaction diagram of Coumarin in BACE1 binding site using the Biovia Discovery Studio.*
+| Geraniol 3D Interaction |
+| :---: |
+| ![Geraniol 3D Interaction Diagram](./images/5QCU_637566_3D_interaction_crop.png)|
 
 ## Acknowledgments
 This project was completed as part of the 3-Week Virtual Research Training in CADD (https://www.linkedin.com/company/the-insilico-lab/posts/?feedView=all) organized by **The InSilico Lab**. 
