@@ -84,11 +84,14 @@ Coumarin forms a Pi-Pi stacked bond with Tyr71 and Phe108. The 3D interaction di
 
 | Coumarin 2D Interaction | Coumarin 3D Interaction |
 | :---: | :---: |
-| ![Coumarin 2D Interaction Diagram](./images/5QCU_dockprep-Coumarin_323_interaction.png)| ![Coumarin 2D Interaction Diagram](./images/5QCU_323_interaction.png) |
+| ![Coumarin 2D Interaction Diagram](./images/5QCU_dockprep-Coumarin_323_interaction.png)| ![Coumarin 2D Interaction Diagram](./images/5QCU_323_3D_interaction_crop.png) |
+
+Geraniol 3D interaction diagram indicated minor geometric distortions likely stemming from the SMILES-to-PDBQT conversion process. While docking scores remained competitive, the structural integrity of this lead requires further force-field refinement (e.g., using AMBER or CHARMM) to ensure a stable bioactive conformation.
 
 | Geraniol 3D Interaction |
 | :---: |
 | ![Geraniol 3D Interaction Diagram](./images/5QCU_637566_3D_interaction_crop.png)|
+
 
 ## Acknowledgments
 This project was completed as part of the 3-Week Virtual Research Training in CADD (https://www.linkedin.com/company/the-insilico-lab/posts/?feedView=all) organized by **The InSilico Lab**. 
