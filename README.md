@@ -6,14 +6,14 @@ The 3D structure of Beta secretase (BACE) protein imported from Protein Data Ban
 
 ![3D structure](./images/5QCU_pymol.png)
 
-*Figure 1: Beta-secretase protein structure visualized in PyMol.*
+*Beta-secretase protein structure visualized in PyMol.*
 
 ### Determining binding pockets
 The binding pockets on the protein was detected using DoG site scorer program in Protein Plus (https://proteins.plus/). The pdb structure was uploaded to Proteins plus and binding pocket with p_val = 0 was identified in the chain A. 
 
 ![Binding Pocket Prediction](./images/binding_pocket.png)
 
-*Figure 2: Binding site detection in Chain A using the DoGsite scorer on Proteins Plus.*
+*Binding site detection in Chain A using the DoGsite scorer on Proteins Plus.*
 
 ### Protein clean-up
 Next, the protein pdb structure was uploaded to Chimera to prepare the protein for docking. Chains B and C, the co-crystallized ligands and the water molecules were removed. The structure was saved in a dockprep format. This preparation is important to add any missing atoms, assign charges, remove bound ligands and water molecules.
@@ -123,6 +123,9 @@ ADMET properties were assessed using ADMETLab 3.0
 The Alphafold predicted structure of 5QCU is in aquamarine and the cleaned 5QCU protein is in orange color. The two proteins have an RMSD of 0.28 A֯ which is very identical. 
 RMSD measures the average distance between atoms on the alpha-carbon backbone. Distances less than 1 A are considered nearly identical. 
 
+![Alignment_of_proteins](./images/Alignment of Alphafold and cleaned protein.png)
+
+*Alignment of Alphafold predicted 5QCU and 5QCU cleaned protein in PyMol.*
 
 ## Acknowledgments
 This project was completed as part of the 3-Week Virtual Research Training in CADD (https://www.linkedin.com/company/the-insilico-lab/posts/?feedView=all) organized by **The InSilico Lab**. 
